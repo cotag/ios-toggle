@@ -1,7 +1,7 @@
 {
   "name": "ios-toggle",
-  "version": "1.0.1",
-  "main": ["ios-toggle.js", "ios-toggle.scss"],
+  "version": "1.0.2",
+  "main": ["ios-toggle.js"],
   "description": "A CSS based toggle switch to replace the browsers checkbox",
   "dependencies": {
     "angular": ">=1.2.0"
