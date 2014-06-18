@@ -21,7 +21,7 @@
     angular.module('coToggle', []).
         directive('toggle', function () {
             return {
-                template: '<label class="ios-toggle" ng-click="update($event)" ng-class="{ios-active: state}">' +
+                template: '<label class="ios-toggle" ng-click="update($event)" ng-class="{iosactive: state}">' +
                             '<input type="checkbox" ng-checked="state" />' +
                           '</label>',
                 replace: true,

@@ -58,9 +58,9 @@
                 right .15s .175s);
         }
 
-        &.ios-active {
+        &.iosactive {
             border-color: $active;
-            @include box-shadow(inset 0 0 0 ($height / 2) $active);
+            @include box-shadow(inset 0 0 0 ($height / 2 + 1) $active);
 
             @include transition(border .25s,
                 box-shadow .25s,

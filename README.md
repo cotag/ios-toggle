@@ -11,13 +11,14 @@ Provides an AngularJS directive and Compass mixin for simple integration
 3. Run `bower install`
 4. In your application you can now add:
    * `<script src="bower_components/ios-toggle/ios-toggle.js"></script>`
-   * `<link rel="stylesheet" href="bower_components/ios-toggle/ios-toggle.css">`
 
 
 ## Usage
 
-1. Use the `@include ios-toggle()` mixin to define your styles.
-2. Create your progress element:
+1. In your SCSS `@import "../bower_components/ios-toggle/ios-toggle";`
+2. Use the `@include ios-toggle()` mixin to define your styles.
+   * See `ios-toggle.scss` for customisation options
+3. Create your progress element:
 
  
 ```html
